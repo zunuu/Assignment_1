@@ -1,6 +1,7 @@
 body{
     margin: 0%;
 }
+
 .Display{
     display: flex;
     margin: 5% 5%;
@@ -21,10 +22,11 @@ span{
     color: darkseagreen;
 }
 .h1-side-border{ 
-    /* it will change with a class (in second and third section) */
+    
     font-size: 60px;
     border-left: 5px solid purple;
     padding-left: 3%;
+    border-radius: 5px;
 }
 .h1-side-borderless{ 
         font-size: 60px;
@@ -118,7 +120,16 @@ footer h3{
 footer h3 span{
     color: cyan;
 } 
-.box_shadow{
+.Mentor{
+    border-top: 10px solid;
+    
+    border-image:radial-gradient(rgb(255, 174, 0),rgb(144, 30, 148))30;
+    background-image: url(./images/shapes/shape-5.png);
+    background-position: right ;
+    background-size: 20%;
+    background-repeat:no-repeat;
+}
+#box_shadow_your_story{
     box-shadow: 10px 10px 40px black;
     border-radius: 10px;
     padding: 20px 30px;
@@ -127,23 +138,59 @@ footer h3 span{
     border-top: solid;
     border-image: radial-gradient(red, rgb(48, 48, 224))30;;
     border-width: 10px;
-    background-image:linear-gradient(rgb(21, 19, 22),rgb(8, 37, 37));
-    color:rgb(218, 211, 200);
+    background-image:linear-gradient(rgba(207, 71, 178, 0.692),rgb(102, 90, 114));
+    color:rgb(3, 3, 3);
+}
+#box_shadow_seeking_Mentor{
+    box-shadow: 10px 10px 40px black;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-right: 30px;
+    border-left: solid;
+    border-top: solid;
+    border-image: radial-gradient(rgb(153, 149, 175), rgb(128, 54, 54))30;;
+    border-width: 10px;
+    background-image:linear-gradient(rgba(187, 150, 108, 0.692),rgb(151, 116, 192));
+    color:rgb(0, 0, 0);
+}
+#box_shadow_support{
+    box-shadow: 10px 10px 40px black;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-right: 30px;
+    border-left: solid;
+    border-top: solid;
+    border-image: radial-gradient(rgb(65, 148, 151), rgb(133, 150, 88))30;;
+    border-width: 10px;
+    background-image:linear-gradient(rgba(155, 109, 145, 0.692),rgb(189, 188, 130));
+    color:rgb(0, 0, 0);
+}
+#box_shadow_attention{
+    box-shadow: 10px 10px 40px black;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-right: 30px;
+    border-left: solid;
+    border-top: solid;
+    border-image: radial-gradient(rgb(136, 43, 139), rgb(156, 160, 103))30;;
+    border-width: 10px;
+    background-image:linear-gradient(rgba(190, 109, 173, 0.692),rgb(128, 156, 125));
+    color:rgb(0, 0, 0);
 }
 .Shapes{
     background-image: url(./images/shapes/shape-4.png);
-    background-repeat: no-repeat;
-    background-size: 300px;
-    background-position:center ;
-}
+    background-repeat:no-repeat;
+    background-size: 20%;
+    background-position: top right ; 
+background-image: url(./images/shapes/shape-9.png); }
 form input,button{
     background-color:lavender;
     padding: 10px;
     border: 2px;
-    margin: 5px 2px 5px 30px;
+    margin: 5px 2px 5px 10px;
     border-radius: 30px;
     text-align: center;
-
+    
 
 }
 form{
@@ -152,5 +199,13 @@ form{
     border-radius: 20px;
     color:rgb(13, 37, 37);
     text-align: center;
+    margin-top:50px;
+    margin-left: 5%;
+    font-family: monospace;
 
+
+}
+#Motivation{
+    border-radius: 30px;
+   
 }
