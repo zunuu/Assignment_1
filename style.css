@@ -71,7 +71,7 @@ color: white;
     background-size: 40%;
     width: 100%;
     padding:12% 2% 5%;  
-    background-color:rgb(141, 139, 139);
+    background-color:rgb(156, 205, 218);
     margin-right: 20px;
     border-radius: 30px;
 
@@ -83,7 +83,7 @@ color: white;
     background-size: 45%;
     width: 100%;
     padding:12% 2% 5%;
-    background-color:rgb(93, 129, 129);
+    background-color:rgb(219, 181, 99);
     margin-right: 0px;
     border-radius: 30px;
 
@@ -101,4 +101,17 @@ color: white;
     background-repeat:no-repeat;
     padding:5% 30% 55% 10%;
     background-position:right;
+}
+footer{
+ 
+   
+   background-color: rgb(20, 19, 32);
+    text-align: center;
+    color: blanchedalmond;
+    padding-top: 5px;
+    border-bottom: solid 30px rgb(20, 19, 32);
+}
+footer h3{
+    font-style: italic;
+    font-family:cursive;
 }
