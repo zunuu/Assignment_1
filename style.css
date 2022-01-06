@@ -1,0 +1,104 @@
+body{
+    margin: 0%;
+}
+.Display{
+    display: flex;
+    margin: 5% 5%;
+    
+    
+
+}
+
+.half-width{
+    width: 50%;
+}
+img{
+    width: 70%;
+    padding-left: 15%;
+}
+
+span{
+    color: darkseagreen;
+}
+.h1-side-border{ 
+    /* it will change with a class (in second and third section) */
+    font-size: 60px;
+    border-left: 5px solid purple;
+    padding-left: 3%;
+}
+.h1-side-borderless{ 
+        font-size: 60px;
+        
+        padding-left: 3%;
+        text-align: center;
+}
+h2{
+    font-weight: 800;
+    font-size: 40px;
+}
+h3{
+    font-weight: 700;
+    font-size: 25px;
+}
+h5{
+   font-weight:100;
+   
+}
+a{text-decoration: none;
+   
+    padding: 10px 40px;
+    background-image: linear-gradient(darkorange,rgb(182, 1, 182));
+border-radius: 5px;
+color: white;
+
+}
+#mission{
+    background-image: url(images/illustrators/illustrator-1.png);
+   
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 100%;
+    padding:12% 2% 5%;
+   
+    background-color:rgb(145, 165, 137);
+    margin-right: 20px;
+    border-radius: 30px;
+}
+#vision{
+    background-image: url(images/illustrators/illustrator-2.png);
+   
+    background-repeat: no-repeat;
+    background-size: 40%;
+    width: 100%;
+    padding:12% 2% 5%;  
+    background-color:rgb(141, 139, 139);
+    margin-right: 20px;
+    border-radius: 30px;
+
+}
+#goal{
+    background-image: url(images/illustrators/illustrator-3.png);
+   
+    background-repeat: no-repeat;
+    background-size: 45%;
+    width: 100%;
+    padding:12% 2% 5%;
+    background-color:rgb(93, 129, 129);
+    margin-right: 0px;
+    border-radius: 30px;
+
+
+}
+#background_img_develop{
+    background-image: url(./images/shapes/shape-1.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position:left;
+}
+#background_img_skills{
+    background-image: url(./images/shapes/shape-1.png);
+    background-size: 70%;
+    background-repeat:no-repeat;
+    padding:5% 30% 55% 10%;
+    background-position:right;
+}
