@@ -1,5 +1,7 @@
 body{
     margin: 0%;
+    font-family: 'Arvo', serif;
+font-family: 'Poppins', sans-serif;
 }
 
 .Display{
@@ -22,18 +24,24 @@ span{
     color: darkseagreen;
 }
 .h1-side-border{ 
-    
     font-size: 60px;
     border-left: 5px solid purple;
     padding-left: 3%;
     border-radius: 5px;
 }
 .h1-side-borderless{ 
-        font-size: 60px;
-        
+        font-size: 60px;    
         padding-left: 3%;
         text-align: center;
 }
+#h2_side_border_Mentor{
+    border-left: 5px solid purple;
+    border-radius: 5px;
+    padding-left: 20px;
+    
+}
+
+
 h2{
     font-weight: 800;
     font-size: 40px;
@@ -49,11 +57,12 @@ h5{
 a{text-decoration: none;
    
     padding: 10px 40px;
-    background-image: linear-gradient(darkorange,rgb(182, 1, 182));
+    background-image: linear-gradient(rgb(255, 140, 0),purple);
 border-radius: 5px;
 color: white;
 
 }
+
 #mission{
     background-image: url(images/illustrators/illustrator-1.png);
    
@@ -177,13 +186,13 @@ footer h3 span{
     background-image:linear-gradient(rgba(190, 109, 173, 0.692),rgb(128, 156, 125));
     color:rgb(0, 0, 0);
 }
-.Shapes{
-    background-image: url(./images/shapes/shape-4.png);
+#Shapes_img{
+    
     background-repeat:no-repeat;
     background-size: 20%;
     background-position: top right ; 
-background-image: url(./images/shapes/shape-9.png); }
-form input,button{
+    background-image: url(./images/shapes/shape-9.png); }
+    form input,button{
     background-color:lavender;
     padding: 10px;
     border: 2px;
@@ -205,7 +214,5 @@ form{
 
 
 }
-#Motivation{
-    border-radius: 30px;
-   
-}
+
+
