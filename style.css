@@ -60,7 +60,7 @@ color: white;
     width: 100%;
     padding:12% 2% 5%;
    
-    background-color:rgb(145, 165, 137);
+    background-color:rgb(188, 209, 180);
     margin-right: 20px;
     border-radius: 30px;
 }
@@ -71,7 +71,7 @@ color: white;
     background-size: 40%;
     width: 100%;
     padding:12% 2% 5%;  
-    background-color:rgb(156, 205, 218);
+    background-color:rgb(172, 216, 228);
     margin-right: 20px;
     border-radius: 30px;
 
@@ -83,10 +83,9 @@ color: white;
     background-size: 45%;
     width: 100%;
     padding:12% 2% 5%;
-    background-color:rgb(219, 181, 99);
+    background-color:rgb(235, 204, 137);
     margin-right: 0px;
     border-radius: 30px;
-
 
 }
 #background_img_develop{
@@ -102,6 +101,7 @@ color: white;
     padding:5% 30% 55% 10%;
     background-position:right;
 }
+
 footer{
  
    
@@ -114,4 +114,43 @@ footer{
 footer h3{
     font-style: italic;
     font-family:cursive;
+}
+footer h3 span{
+    color: cyan;
+} 
+.box_shadow{
+    box-shadow: 10px 10px 40px black;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-right: 30px;
+    border-left: solid;
+    border-top: solid;
+    border-image: radial-gradient(red, rgb(48, 48, 224))30;;
+    border-width: 10px;
+    background-image:linear-gradient(rgb(21, 19, 22),rgb(8, 37, 37));
+    color:rgb(218, 211, 200);
+}
+.Shapes{
+    background-image: url(./images/shapes/shape-4.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position:center ;
+}
+form input,button{
+    background-color:lavender;
+    padding: 10px;
+    border: 2px;
+    margin: 5px 2px 5px 30px;
+    border-radius: 30px;
+    text-align: center;
+
+
+}
+form{
+    background-color: thistle;
+    padding: 10px;
+    border-radius: 20px;
+    color:rgb(13, 37, 37);
+    text-align: center;
+
 }
